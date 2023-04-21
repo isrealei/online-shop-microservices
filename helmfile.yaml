@@ -3,55 +3,66 @@ releases:
     name: redis
     values:
       - values/redis.yaml
+     
   
   - chart: charts/microservice
     name: adservice
     values:
       - values/adservice.yaml
+      # - appVersion: "v0.6.0"
 
   - chart: charts/microservice
     name: cartservice
     values:
       - values/cartservice.yaml
+      # - appVersion: "v0.6.0"
     
   - chart: charts/microservice
     name: checkoutservice
     values:
       - values/checkoutservice.yaml
+      # - appVersion: "v0.6.0"
 
   - chart: charts/microservice
     name: currencyservice
     values:
       - values/currencyservice.yaml
+      # - appVersion: "v0.6.0"
 
   - chart: charts/microservice
     name: email-service-values
     values:
       - values/email-service-values.yaml
+      # - appVersion: "v0.6.0"
 
   - chart: charts/microservice
     name: frontend
     values:
       - values/frontend.yaml
+      # - appVersion: "v0.6.0"
 
   - chart: charts/microservice
     name: payment-svc
     values:
       - values/payment-svc.yaml
+      # - appVersion: "v0.6.0"
 
 
   - chart: charts/microservice
     name: productcatalog
     values:
       - values/productcatalog-svc.yaml
+      # - appVersion: "v0.6.0"
 
 
   - chart: charts/microservice
     name: recommendation
     values:
       - values/recommendation-svc.yaml 
+      # - appVersion: "v0.6.0"
 
   - chart: charts/microservice
     name: shippingservice
     values:
       - values/shippingservice.yaml 
+      # - appVersion: "v0.6.0"
