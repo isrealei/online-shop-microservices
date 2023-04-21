@@ -52,6 +52,6 @@ releases:
       - values/recommendation-svc.yaml 
 
   - chart: charts/microservice
-    name: shoppingservice
+    name: shippingservice
     values:
-      - values/shoppingservice.yaml 
+      - values/shippingservice.yaml 

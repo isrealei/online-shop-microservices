@@ -7,4 +7,4 @@ containerEnvVars:
 - name: PORT
   value: "9555"
 servicePort: 9555
-serviceType: ClusterIPs
+serviceType: ClusterIP

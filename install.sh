@@ -8,4 +8,4 @@ helm install -f values/frontend.yaml  frontend charts/microservice
 helm install -f values/payment-svc.yaml  payment-svc charts/microservice
 helm install -f values/productcatalog-svc.yaml  productcatalog charts/microservice
 helm install -f values/recommendation-svc.yaml  recommendation charts/microservice
-helm install -f values/shoppingservice.yaml  shoppingservice charts/microservice
+helm install -f values/shippingservice.yaml  shippingservice charts/microservice
